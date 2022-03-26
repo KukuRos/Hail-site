@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- =========== FAVICON =========== -->
+    <link rel="shortcut icon" href="./assets/Hail/img/faviconH.png" type="image/x-icon">
+
+    <!-- =========== BOXICONS =========== -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- =========== CSS =========== -->
+    <link rel="stylesheet" href="./assets/Hail/css/style.css">
+
+    <title>Hail</title>
+</head>
+<body>
+    <!-- =========== LOADER =========== -->
+    <div class="load" id="load">
+        <img src="./assets/Hail/img/loaddice2.gif" alt="" class="load__gif">
+    </div>
+    <!-- =========== HEADER =========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/Hail/img/logo.png" alt="" class="nav__logo-img">
+                Hail.
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#details" class="nav__link">Detalles</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre el clan</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Otros</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========== MAIN =========== -->
+    <main>
+        <!--==================== HOME ====================-->
+        <section class="home grid" id="home">
+                <div class="home__container">
+                    <div class="home__content container">
+                        <h1 class="home__title">
+                            Sin Límites, Sin Fronteras</i><span>.</span>
+                        </h1>
+                        <p class="home__description">
+                            El camino lo hacen los pies al andar
+                        </p>
+                        <div class="home__data">
+                            <div class="home__data-group">
+                                <h3 class="home__data-title">Atributo</h3>
+                                <h2 class="home__data-number">Ninguno</h2>
+                                <p class="home__data-description">
+                                    No poseen un atributo sobresaliente.
+                                </p>
+                            </div>
+
+                            <div class="home__data-group">
+                                <h3 class="home__data-title">Magia</h3>
+                                <h2 class="home__data-number">Incolora</h2>
+                                <p class="home__data-description">
+                                    No tienen magia innata.
+                                </p>
+                            </div>
+                        </div>
+
+                        <a href="#rasgos">
+                            <img src="./assets/Hail/img/scroll.png" alt="" class="home__scroll">
+                        </a>
+                    </div>
+                </div>
+                <img src="./assets/Hail/img/home.png" alt="" class="home__img">
+        </section>
+
+        <!--==================== Rasgos ====================-->
+        <div class="rasgos section container" id="rasgos">
+            <div class="rasgos__container">
+                <div class="rasgos__box">
+                    <h2 class="section__title">
+                        Conoce las características de este clan!
+                    </h2>
+                    <div>
+                        <a href="https://reinoetereo.com/foro/viewtopic.php?f=19&t=54" class="button rasgos__button">Ver mas</a>
+                    </div>
+                </div>
+
+                <div class="rasgos__category">
+                    <div class="rasgos__group rasgos__line">
+                        <img src="./assets/Hail/img/especiality1.png" alt="" class="rasgos__img">
+
+                        <h3 class="rasgos__title">Nombre</h3>
+                        <p class="rasgos__description">
+                            Los Hail prosperan adaptándose y desarrollando múltiples habilidades, y aquellos con las facultades para ser invitados a Askal no son la excepción, sino su extremo.
+                        </p>
+                    </div>
+
+                    <div class="rasgos__group rasgos__line">
+                        <img src="./assets/Hail/img/especiality2.png" alt="" class="rasgos__img">
+
+                        <h3 class="rasgos__title">Plus one</h3>
+                        <p class="rasgos__description">
+                            Elige 6 artes en lugar de 5. Si posees artes marciales, elige una técnica de cualquier atributo.
+                        </p>
+                    </div>
+
+                    <div class="rasgos__group">
+                        <img src="./assets/Hail/img/especiality3.png" alt="" class="rasgos__img">
+
+                        <h3 class="rasgos__title">Nombre</h3>
+                        <p class="rasgos__description">
+                            Los Hail no tienen desventajas claras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--==================== details ====================-->
+        <section class="details section" id="details">
+            <div class="detail__container container">
+                <h2 class="section__title">
+                    Descubre sus tierras, personajes y magia
+                </h2>
+
+                <ul class="details__filters">
+                    <li class="details__item details__line active-detail" data-filter=".lugares">
+                        <h3 class="details__title">Lugares</h3>
+                        <span class="details__stock">5 zonas</span>
+                    </li>
+
+                    <li class="details__item details__line" data-filter=".personajes">
+                        <h3 class="details__title">Personajes</h3>
+                        <span class="details__stock">7 personajes</span>
+                    </li>
+
+                    <li class="details__item" data-filter=".magias">
+                        <h3 class="details__title">Magias</h3>
+                        <span class="details__stock">0 elementos</span>
+                    </li>
+                </ul>
+                <div class="details__content grid">
+                    <!--============== Lugares ==============-->
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/delicacies1.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Abnasth</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewforum.php?f=67">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/delicacies2.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Philysnorea</h2>
+                            <h3 class="details__name">Capital</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewforum.php?f=135">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/delicacies3.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Sambar</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewforum.php?f=160">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/delicacies1.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Pradoverde</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewforum.php?f=59">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card lugares">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/delicacies2.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Islas del Eco</h2>
+                            <h3 class="details__name"></h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+                    <!--============== Personajes ==============-->
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Tadashi.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Tadashi</h2>
+                            <h3 class="details__name">Warden</h3>
+
+                            <button class="button details__button">
+                                
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=47&t=284">
+                                   <i class='bx bx-link-external' ></i> 
+                                </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Cypher.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Cypher</h2>
+                            <h3 class="details__name">Mecánico</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=47&t=68">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Tachi.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Tachi</h2>
+                            <h3 class="details__name">Ladrona</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=47&t=285">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Vazyl.png" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Vazyl</h2>
+                            <h3 class="details__name">Cartógrafo</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=47&t=484">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Nirian.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Nirian</h2>
+                            <h3 class="details__name">Invocadora</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=47&t=263">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Bree.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Bree</h2>
+                            <h3 class="details__name">Asesina</h3>
+
+                            <button class="button details__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=47&t=302">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="details__card personajes">
+                        <div class="details__shape">
+                            <img src="assets/Hail/img/Jane.jpg" alt="" class="details__img">
+                        </div>
+
+                        <div class="details__data">
+                            <h2 class="details__price">Jane</h2>
+                            <h3 class="details__name">Doppelganger</h3>
+
+                            <button class="button details__button">
+                                <a href="#">
+                                    <i class='bx bx-link-external' ></i> 
+                                 </a>
+                            </button>
+                        </div>
+                    </article>
+                    <!--============== Magias ==============-->
+                    
+                </div>
+            </div>
+        </section>
+
+        <!--==================== about ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container">
+                <h2 class="section__title">
+                    Un vistazo al clan Hail
+                </h2>
+
+                <div class="about__content grid">
+                    <div class="about__images">
+                        <img src="./assets/Hail/img/quality1.png" alt="" class="about__img-big">
+                        <img src="./assets/Hail/img/quality2.png" alt="" class="about__img-small">
+                    </div>
+
+                    <div class="about__data">
+                        <h1 class="about__title">¿Quién necesita un líder?</h1>
+                        
+                        <p class="about__description">
+                            Los Hail no tienen un líder unificado para su extensa y diversa población, que habita desde desiertos e islas hasta montañas heladas y cuevas subterráneas. Incluso a una escala menor, digamos ciudades o pueblos, sus métodos para elegir gobernantes no están unificados.<br /><br />
+
+                            Algunas ciudades Hail mantienen elecciones directas o indirectas, pero también encontrarás algunas donde el puesto es ganado en competencias de beber cerveza, luchas en un ring con reglas específicas, linaje hereditario, o sacar espadas de piedras (en serio, no es broma, nadie me supo decir quien puso la espada allí pero no tienen gobernante desde hace quinientos años).<br /><br />
+
+                            Si se te ocurre una manera razonable de elegir un gobernante, los hail probablemente lo intentaron ya en alguna de sus comunas. Y si es poco razonable... Seguro que ya hicieron algo parecido.
+                        </p>
+
+                        <div class="about__buttons">
+                            <button class="button about__button">
+                                <a href="https://reinoetereo.com/foro/viewtopic.php?f=19&t=56">
+                                Saber mas
+                                </a>
+                            </button>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logo section">
+            <div class="logo__container container grid">
+                <img src="./assets/Hail/img/logocoffee1.png" alt="Arameddan" class="logo__img">
+                <img src="./assets/Hail/img/logocoffee2.png" alt="Tharagon" class="logo__img">
+                <img src="./assets/Hail/img/logocoffee3.png" alt="Darglance" class="logo__img">
+                <img src="./assets/Hail/img/logocoffee4.png" alt="Hail" class="logo__img">
+                <img src="./assets/Hail/img/logocoffee5.png" alt="Etzvaen" class="logo__img">
+            </div>
+        </section>
+
+        <!--==================== BLOG ====================-->
+        <section class="blog section" id="blog">
+            <div class="blog__container container">
+                <h2 class="section__title">
+                    Nuestras misiones y trasfondos de personaje
+                </h2>
+
+                <div class="blog__content grid">
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="./assets/Hail/img/blog1.png" alt="" class="blog__img">
+                            <a href="https://reinoetereo.com/foro/viewforum.php?f=55" class="blog__button">
+                                <i class='bx bx-chevron-right' ></i>
+                            </a>
+                        </div>
+
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Misiones
+                            </h2>
+                            <p class="blog__description">
+                                Misiones en tierras libres
+                            </p>
+
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment' ></i>
+                                    <span>176</span>
+                                </div>
+
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show' ></i>
+                                    <span>5.230</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="./assets/Hail/img/blog2.png" alt="" class="blog__img">
+                            <a href="https://reinoetereo.com/foro/viewforum.php?f=47" class="blog__button">
+                                <i class='bx bx-chevron-right' ></i>
+                            </a>
+                        </div>
+
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Trasfondos
+                            </h2>
+                            <p class="blog__description">
+                                Fichas de personaje activos del clan Hail
+                            </p>
+
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class='bx bx-comment' ></i>
+                                    <span>20</span>
+                                </div>
+
+                                <div class="blog__reaction">
+                                    <i class='bx bx-show' ></i>
+                                    <span>3.905</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========== FOOTER =========== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Hail.</h1>
+
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <p class="footer__description">
+                        
+                    </p>
+                </div>
+                <div class="footer__data">
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========== SCROLL UP =========== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevron-up' ></i>
+    </a>
+    <!-- =========== MIXITUP FILTER =========== -->
+    <script src="./assets/Hail/js/mixitup.min.js"></script>
+
+    <!-- =========== MAIN JS =========== -->
+    <script src="./assets/Hail/js/main.js"></script>
+</body>
+</html>
